@@ -1,0 +1,176 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color:#CAAF82;
+}
+h2{
+    margin:0;
+}
+.right{
+    margin: 0;
+    padding-left:100px;
+    padding-top:20px;
+}
+.bg-img{
+    background: center center url(/css\ festival/part2/img/tyotin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100%;
+    position: relative;
+    
+}
+.top{
+    padding-top:200px;
+}
+.sp{
+    display:block;
+    color:white;
+    padding-left:100px;
+    font-size: 80px;
+    /*font-family:'IM Fell DW Pica SC',serif; 明朝体みたいな*/
+    /*font-family:'Homemade Apple',cursive; /*かわいい感じの*/
+    font-family:'Sawarabi Mincho',sans-serif;
+    animation-name: fade-in;
+    animation-duration:4s;
+    animation-timing-function:ease;
+    animation-direction:alternate;
+    animation-iteration-count:infinite;
+}
+@keyframes fade-in{
+    from{
+        opacity:0;
+        padding-left:10px;
+    }
+    to{
+        opacity:1;
+    }
+}
+.back{
+    /*background:rgba(38,44,44,);*/
+    background:linear-gradient(to bottom,#1A1A1A,#151d16);
+    margin:0px;
+}
+.sub{
+    color:white;
+    text-shadow: darkgray 5px 5px 0;
+    padding-left:5vw;
+    padding-right:5vw;
+}
+@media screen and (max-width: 815px){
+    .sp {
+        font-size: 2.7rem;
+        padding-left:10vw;
+        padding-right:10vw;
+    }
+    p{
+        display:block;
+    }
+    .flex{
+        display:flex;
+        flex-direction:column;
+    }
+}
+.flex{
+    display:flex;
+    padding:20px 40px 20px 40px;
+}
+.box1{
+    flex:1;
+}
+.box2{
+    flex:1;
+}
+.content{
+    padding-left:10vw;
+    padding-right:10vw;
+    margin-top:0;
+    padding-bottom:16px;
+}
+.text{
+    color:white;
+}
+.center{
+    text-align: center;
+}
+.copy{
+    background-color:black;
+    color:white;
+}
+label{
+    font-size:30px;
+    display: block;
+    padding: 0 0 4px 0;
+    padding : 15px;
+    line-height: 1;
+    color :#A0ED9C;
+    background : #275B35;
+    cursor :pointer;
+}
+input{
+    display:none;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    /*
+    background :#8C9789;
+    */
+    background:#3E413A;
+    list-style: none;
+}
+.menu li {
+    height: 0;
+    padding-left:10px;
+    overflow: hidden;
+    /*古い表記法（非推奨）*/
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    /*
+    color:#728b55;*/
+    color:white;
+}
+
+#menu_bar01:checked ~ #open01 li,
+#menu_bar02:checked ~ #open02 li,p{
+    display : block;
+    height:5em; 
+    
+    /*height: 54px;*/
+}
+a{
+    color:yellow;
+}
+.subt{
+    font-size:23px;
+}
+.judging{
+    padding-left:30px;
+    padding-right:30px;
+}
+strong{
+    color:pink;
+}
+.marker_line {
+    background: linear-gradient(transparent 95%, #c1fed8 0%);
+    z-index: 9999;
+}
+h2{
+    font-size:40px;
+}
+h2:hover{
+    color:coral;
+    transition: all 0.5s;
+}
+p{
+    display:block;
+    height:auto;
+}
+label{
+    border:solid;
+    border-color: rgb(0, 0, 0);;
+}
