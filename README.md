@@ -1,3 +1,3 @@
 # DOROFU.github.io
 
-[個人用サイト](https://TACHITOKI.github.io/fes.html)
+[個人用サイト](https://TACHITOKI.github.io/DOROFU.github.io/fes.html)
